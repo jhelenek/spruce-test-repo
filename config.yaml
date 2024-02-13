@@ -8,3 +8,4 @@ buildConfiguration:
       - .npmrc
 livePreviewConfiguration:
   setupCommand: npm run dev -- --no-prod-url --local
+  serveCommand: npx serve -p 8080
