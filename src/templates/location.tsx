@@ -62,12 +62,12 @@ export const config: TemplateConfig = {
       locales: ["en", "fr", "de", "es", "it", "ar"],
       primary: false,
     },
-    additionalProperties: {
-      isVETemplate: true,
-    },
     transform: {
       replaceOptionValuesWithDisplayNames: ["paymentOptions"],
     },
+  },
+  additionalProperties: {
+    isVETemplate: true,
   },
 };
 
